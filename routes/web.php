@@ -23,6 +23,7 @@ Route::middleware('lang')->group(function () {
 );
 Route::post('review', [Controllers\ReviewController::class,'postIndex']
 );
+Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);
