@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Gallery;
+use App;
 
 class GalleryObserver
 {
@@ -14,7 +15,7 @@ class GalleryObserver
      */
     public function created(Gallery $gallery)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($gallery, 'Gallery', 'created');
     }
 
     /**
@@ -25,7 +26,7 @@ class GalleryObserver
      */
     public function updated(Gallery $gallery)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($gallery, 'Gallery', 'updated');
     }
 
     /**

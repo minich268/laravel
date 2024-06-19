@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Review;
+use App;
 
 class ReviewObserver
 {
@@ -14,7 +15,7 @@ class ReviewObserver
      */
     public function created(Review $review)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($review, 'Review', 'created');
     }
 
     /**
@@ -25,7 +26,7 @@ class ReviewObserver
      */
     public function updated(Review $review)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($review, 'Review', 'updated');
     }
 
     /**

@@ -4,7 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
+       <meta name="description" content="TattoosCalculator - devis tatouage en ligne, réservation et estimation prix de tatouage. ">
+       <meta data-n-head="ssr" property="og:type" content="{{$og_type}}">
+    <meta data-n-head="ssr" property="og:title" content="{{$og_title}}">
+    <meta data-n-head="ssr" property="og:site_name" content="{{$og_title}}">
+    <meta data-n-head="ssr" property="og:url" content="{{$og_url}}">
+    <meta data-n-head="ssr" property="og:image" content="{{$og_image}}">
+    <meta data-n-head="ssr" property="og:description" content="{{$og_description}}">
+    <meta data-n-head="ssr" property="product:plural_title" content="{{$product_plural_title}}">
+    <meta data-n-head="ssr" name="thumbnail" content="{{$og_image}}">
+    <meta data-n-head="ssr" name="twitter:title" content="{{$og_title}}">
+    <meta data-n-head="ssr" name="twitter:description" content="{{$og_description}}">
+    
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->

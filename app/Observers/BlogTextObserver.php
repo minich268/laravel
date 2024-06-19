@@ -3,6 +3,8 @@
 namespace App\Observers;
 
 use App\Models\BlogText;
+use App;
+
 
 class BlogTextObserver
 {
@@ -14,7 +16,7 @@ class BlogTextObserver
      */
     public function created(BlogText $blogText)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($blogText, 'BlogText', 'created');
     }
 
     /**
@@ -25,7 +27,7 @@ class BlogTextObserver
      */
     public function updated(BlogText $blogText)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($blogText, 'BlogText', 'updated');
     }
 
     /**

@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Article;
+use App;
 
 class ArticleObserver
 {
@@ -14,7 +15,7 @@ class ArticleObserver
      */
     public function created(Article $article)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($article, 'Article', 'created');
     }
 
     /**
@@ -25,7 +26,7 @@ class ArticleObserver
      */
     public function updated(Article $article)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($article, 'Article', 'updated');  
     }
 
     /**

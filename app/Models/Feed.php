@@ -12,6 +12,26 @@ class Feed extends Model
     public function blog(){
         return $this->belongsTo(Blog::class, 'model_id');
     }
+    public function blog_text(){
+        return $this->belongsTo(BlogText::class, 'model_id');
+    }
+    public function blog_text_picture(){
+        return $this->belongsTo(BlogTextPicture::class, 'model_id');
+    }
+    public function service(){
+        return $this->belongsTo(Service::class, 'model_id');
+    }
+    public function review(){
+        return $this->belongsTo(Review::class, 'model_id');
+    }
+    public function article(){
+        return $this->belongsTo(Article::class, 'model_id');
+    }
+    public function gallery(){
+        return $this->belongsTo(Gallery::class, 'model_id');
+    }
+
+
 
     
 }

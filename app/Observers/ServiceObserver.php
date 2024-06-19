@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Service;
+use App;
 
 class ServiceObserver
 {
@@ -14,7 +15,7 @@ class ServiceObserver
      */
     public function created(Service $service)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($service, 'Service', 'created');
     }
 
     /**
@@ -25,7 +26,7 @@ class ServiceObserver
      */
     public function updated(Service $service)
     {
-        //
+        App::make(App\Actions\Feeder::class)->save($service, 'Service', 'updated');
     }
 
     /**
