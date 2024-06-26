@@ -4,9 +4,38 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-    <li><a href="/">{{__('menu.home')}}</a></li>
-    <li><a href="/gallery">{{__('menu.gallery')}}</a></li>
-    <li><a href="/blogs">{{__('menu.news')}}</a></li>
+    <li>
+    @if($world == '/')
+                        <span class=" bg-gray-100 p-3 dark:text-white hover:shadow-2xl">{{__('menu.home')}}</span>
+                    @else
+                        <a href="/"
+                           class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.home')}}</a>
+                    @endif
+      </li>
+    <li>
+    @if($world == 'gallery')
+                        <span class=" bg-gray-100 p-3 dark:text-white hover:shadow-2xl">{{__('menu.gallery')}}</span>
+                    @else
+                        <a href="/gallery"
+                           class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.gallery')}}</a>
+                    @endif
+     </li>
+     <li>
+     @if($world == 'blogs')
+                        <span class=" bg-gray-100 p-3 dark:text-white hover:shadow-2xl">{{__('menu.news')}}</span>
+                    @else
+                        <a href="/blogs"
+                           class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.news')}}</a>
+                    @endif
+    </li>
+    <li>
+     @if($world == 'plan')
+                        <span class=" bg-gray-100 p-3 dark:text-white hover:shadow-2xl">{{__('menu.plan')}}</span>
+                    @else
+                        <a href="/plan"
+                           class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.plan')}}</a>
+                    @endif
+    </li>
        <li>
         <details>
           <summary>

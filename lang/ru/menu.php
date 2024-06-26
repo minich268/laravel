@@ -5,6 +5,7 @@ return [
     'gallery' => 'Галерея',
     'contact' => 'Контакты',
     'home' => 'Главная',
+    'plan' => 'Расписание',
     'plastic gymnastics' => 'Пластическая гимнастика',
     
         'about us' => 'О нас',
