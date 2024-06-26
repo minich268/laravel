@@ -28,6 +28,14 @@
                            class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.news')}}</a>
                     @endif
     </li>
+    <li>
+     @if($world == 'plan')
+                        <span class=" bg-gray-100 p-3 dark:text-white hover:shadow-2xl">{{__('menu.plan')}}</span>
+                    @else
+                        <a href="/plan"
+                           class=" p-3 dark:text-white hover:shadow-2xl">{{__('menu.plan')}}</a>
+                    @endif
+    </li>
        <li>
         <details>
           <summary>

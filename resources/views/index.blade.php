@@ -27,11 +27,11 @@
             </p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a href="#"
-                    class="rounded-md bg-lime-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600">Check
-                    out the demo
+                    class="rounded-md bg-lime-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600">
+                    Если Вам нравится с нами
                 </a>
                 <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-                    Learn more
+                    Идем дальше
                     <span>→</span>
                 </a>
             </div>
@@ -40,7 +40,43 @@
             <div
                 class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <!-- Photo by '@tvick' on Unsplash -->
-                <img src="/images/1.jpg" width="1200" height="1442" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                <img src="/images/1.jpg" width="1200" height="1500" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-gray-50 px-4 mt-16">
+    <div class="container mx-auto py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Конкурсы</h2>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed lorem ac
+                        odio dignissim cursus sed at velit.</p>
+                </div>
+                <div class="bg-gray-100 px-6 py-4">
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Новости</a>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Наши гимнасты</h2>
+                    <p class="text-gray-600">Donec vehicula urna ac ex commodo, ac consequat ipsum aliquam. Duis vel
+                        quam nec nunc suscipit lobortis.</p>
+                </div>
+                <div class="bg-gray-100 px-6 py-4">
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Галерея</a>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">О нас</h2>
+                    <p class="text-gray-600">Suspendisse tincidunt metus vitae libero auctor, at aliquam purus
+                        malesuada. Morbi sit amet lectus non sapien aliquet rutrum.</p>
+                </div>
+                <div class="bg-gray-100 px-6 py-4">
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Контакты</a>
+                </div>
             </div>
         </div>
     </div>

@@ -5,6 +5,7 @@ return [
     'gallery' => 'Gallery',
     'contact' => 'Contact',
     'home' => 'Home',
+    'plan' => 'Plan',
     'plastic gymnastics' => 'Plastic gymnastics',
     
         'about us' => 'About us',

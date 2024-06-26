@@ -28,6 +28,7 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);
     Route::get('star/add', [Controllers\StarController::class, 'getAll']);
+    Route::get('plan', [Controllers\PlanController::class, 'getAll']);
     Route::middleware('auth')->group(function () {
         Route::post('blog/{blog}/add_text', [Controllers\BlogController::class, 'postBlogText']);
         Route::post('blogtext/{blog_text}/add_picture', [Controllers\BlogController::class, 'addPicture']);
