@@ -36,14 +36,45 @@
                 </a>
             </div>
         </div>
-        <div class="mt-10 flow-root sm:mt-20">
-            <div
-                class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-                <!-- Photo by '@tvick' on Unsplash -->
-                <img src="/images/1.jpg" width="1200" height="1500" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
-            </div>
-        </div>
-    </div>
+        <section class="bg-white">
+	<div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+			<div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+				<a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+					<img src="images/1.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+					<div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+					<h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Дети</h3>
+				</a>
+			</div>
+			<div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+				<a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
+					<img src="images/3.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+					<div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+					<h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Мечты</h3>
+				</a>
+				<div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+					<a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+						<img src="images/5.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+						<div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+						<h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Здоровье</h3>
+					</a>
+					<a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+						<img src="images/6.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+						<div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+						<h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Счастье</h3>
+					</a>
+				</div>
+			</div>
+			<div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+				<a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+					<img src="images/11.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+					<div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+					<h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Надежда</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
 </div>
 <div class="bg-gray-50 px-4 mt-16">
     <div class="container mx-auto py-12">
@@ -141,6 +172,8 @@
 			  };
 			}
 </script>
+
+
     <footer class="footer p-10 bg-base-300 text-base-content">
   <nav>
     <h6 class="footer-title">Главная</h6> 

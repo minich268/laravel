@@ -1,4 +1,12 @@
-<div>
+<div x-data="{
+canLoadMore : @entangle('canLoadMore')
+}"  @scroll.window.trottle="
+isScrolled = Math.round( window.scrollY + window.innerHeight) >= document.documentElement.scrollHeight;
+if(isScrolled && canLoadMore){
+@this.loadMore()
+}
+">
+    
 @foreach($feeds as $feed)
                   <div>
 
@@ -33,4 +41,6 @@
                   </div>  
                 @endforeach
 
+    <a class="w-full p-2 m-2 text-center cursor-pointer" wire:click="loadMore">Load more</a>
+   
 </div>

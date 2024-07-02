@@ -7,7 +7,12 @@ use App\Models\Feed;
 
 class FeedList extends Component
 {
-    public $amount = 5;
+    public $amount = 1;
+    public bool $canLoadMore;
+    public function loadMore(){
+
+        $this->amount +=1;
+    }
     public function render()
     {
         $feeds = Feed::orderBy('id', 'DESC')->take($this->amount)->get();

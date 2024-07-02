@@ -34,6 +34,7 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
         Route::post('blogtext/{blog_text}/add_picture', [Controllers\BlogController::class, 'addPicture']);
         Route::post('blog_text/{blog_text}/edit', [Controllers\BlogController::class, 'updateBlogText']);
         Route::get('blog_picture/{blog_text_picture}/delete', [Controllers\BlogController::class, 'deletePicture']);
+        Route::post('blog/{blog}/add_comment', [Controllers\BlogController::class, 'postAddComment']);
     });
     Route::get('/dashboard', function () {
         return view('dashboard');

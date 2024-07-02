@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\App;
 class GalleryController extends Controller
 {
     public function getAll ($url = null){
-        return view ('gallery');
+        $galleries = Gallery::all();
+        return view ('gallery', compact('galleries'));
     }
 }

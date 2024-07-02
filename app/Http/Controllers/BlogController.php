@@ -7,9 +7,11 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\BlogText;
 use App\Models\BlogTextPicture;
+use App\Models\Comment;
 use App\Actions\Imag;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\App;
+
 
 class BlogController extends Controller
 {
@@ -18,7 +20,8 @@ class BlogController extends Controller
         return view('blogs', compact('blogs'));
     }
     public function getOne(Blog $blog){
-        return view('blog', compact('blog'));
+        $comments = Comment::orderBy('id','DESC')->where('blog_id',$blog->id)->get();
+        return view ('blog', compact('blog','comments'));
     }
     public function postBlogText(Blog $blog, Request $request)
     {
@@ -57,8 +60,21 @@ class BlogController extends Controller
             if (file_exists($pic_s)) {
                 unlink(storage_path() . $pic_s);
             }
+            
         }
         BlogTextPicture::where('id', $blog_text_picture->id)->delete();
         return redirect()->back();
+    }
+    public function postAddComment(Blog $blog, Request $request){
+       
+        $comment = new Comment;
+        $comment->username = Auth::user()->name; // $request->username
+        $comment->user_id = Auth::user()->id??'';
+        $comment->body = $request->body;
+            $comment->blog_id = $blog->id;
+        $comment->status = '';
+        $comment->save();
+        return redirect()->back();
+       
     }
 }
