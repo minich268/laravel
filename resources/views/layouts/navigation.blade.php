@@ -42,7 +42,7 @@
           {{__('menu.about us')}} 
           </summary>
           <ul class="p-2 bg-base-100 rounded-t-none">
-            <li><a href="/contacts">{{__('menu.contact')}}</a></li>
+            <li><a href="/contact">{{__('menu.contact')}}</a></li>
             <li><a href="/review">{{__('menu.feedback form')}}</a></li>
           </ul>
                 </details>

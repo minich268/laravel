@@ -29,6 +29,8 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);
     Route::get('star/add', [Controllers\StarController::class, 'getAll']);
     Route::get('plan', [Controllers\PlanController::class, 'getAll']);
+    Route::get('contact', [Controllers\ContactController::class, 'getAll']);
+    Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
     Route::middleware('auth')->group(function () {
         Route::post('blog/{blog}/add_text', [Controllers\BlogController::class, 'postBlogText']);
         Route::post('blogtext/{blog_text}/add_picture', [Controllers\BlogController::class, 'addPicture']);
