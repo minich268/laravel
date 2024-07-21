@@ -29,6 +29,7 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);
     Route::get('star/add', [Controllers\StarController::class, 'getAll']);
     Route::get('plan', [Controllers\PlanController::class, 'getAll']);
+    Route::post('mail', [Controllers\MailController::class, 'postIndex']);
     Route::get('contact', [Controllers\ContactController::class, 'getAll']);
     Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
     Route::middleware('auth')->group(function () {

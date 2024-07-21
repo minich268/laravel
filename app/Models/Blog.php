@@ -14,4 +14,8 @@ class Blog extends Model
     public function texts(){
         return $this->hasMany(BlogText::class);
     }
+   
+public function comments(){
+        return $this->hasMany(Comment::class);
+    }
 }
