@@ -1,6 +1,11 @@
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 sticky top-0">
+
+  <a class="logo" href="/">
+    <img src="images/XM.png" width="70" height="30" alt="Логотип">
+  </a>
+
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl">{{__('menu.plastic gymnastics')}}</a>
+    <a class="btn btn-ghost text-xl"></a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
@@ -44,24 +49,19 @@
           <ul class="p-2 bg-base-100 rounded-t-none">
             <li><a href="/contact">{{__('menu.contact')}}</a></li>
             <li><a href="/review">{{__('menu.feedback form')}}</a></li>
+            <li><a href="/question">{{__('menu.question')}}</a></li>
           </ul>
                 </details>
 
             </li>
                 </ul>
-    <ul class="menu menu-horizontal px-4">
-            <li>
-                <details>
-                    <summary>
-                        {{App::getLocale()}}
-                    </summary>
-                    <ul class="p-2 bg-base-100 rounded-t-none">
-                        <li><a href="/?lang=en">EN</a></li>
-                        <li><a href="/?lang=ru">RU</a></li>
-                    </ul>
-                </details>
-            </li>
-
-    </ul>
+    <li>
+   
+    <a href="/plan"
+    class="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-red-300 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        role="button">
+        Записаться сейчас
+</a>
+    </li>
   </div>
 </div>

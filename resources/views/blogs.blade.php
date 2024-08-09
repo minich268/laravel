@@ -32,7 +32,7 @@
                   <circle cx="12" cy="12" r="3"></circle>
                 </svg>
                 <div style="vertical-align: inherit;">
-                  <div style="vertical-align: inherit;">1,2 тыс.</div>
+                  <div style="vertical-align: inherit;">{{\App\Models\Views::where('page', '/blog/'.$blog->id)->count()}}</div>
                 </div>
               </span>
                                 <span class="text-gray-400 inline-flex items-center leading-none text-sm">

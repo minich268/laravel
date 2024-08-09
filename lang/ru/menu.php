@@ -1,16 +1,17 @@
 <?php
 return [
     'events' => 'Событие',
-    'news' => 'Новости',
+    'news' => 'Статьи',
     'gallery' => 'Галерея',
     'contact' => 'Контакты',
     'home' => 'Главная',
-    'plan' => 'Расписание',
-    'plastic gymnastics' => 'Пластическая гимнастика',
+    'plan' => 'Услуги',
+    'plastic gymnastics' => 'Школа пластической гимнастики Венеры Невмержицкой',
     
         'about us' => 'О нас',
         'contact' => 'Контакты',
         'feedback form' => 'Форма обратной связи',
+        'question' => 'Вопрос-ответ',
     
     'competition' => 'Конкурсы',
     'children achievements' => 'Достижения детей',

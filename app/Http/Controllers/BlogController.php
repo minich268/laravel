@@ -8,6 +8,7 @@ use App\Models\Blog;
 use App\Models\BlogText;
 use App\Models\BlogTextPicture;
 use App\Models\Comment;
+use App\Models\Views;
 use App\Actions\Imag;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\App;
@@ -20,8 +21,13 @@ class BlogController extends Controller
         return view('blogs', compact('blogs'));
     }
     public function getOne(Blog $blog){
+        $view = new Views;
+        $view -> page = $_SERVER['REQUEST_URI'];
+        $view -> ip = $_SERVER['REMOTE_ADDR'];
+        $view -> save();
+        $viewpage = Views::where('page', $_SERVER['REQUEST_URI'])->count();
         $comments = Comment::orderBy('id','DESC')->where('blog_id',$blog->id)->get();
-        return view ('blog', compact('blog','comments'));
+        return view ('blog', compact('blog','comments', 'viewpage'));
     }
     public function postBlogText(Blog $blog, Request $request)
     {

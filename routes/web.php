@@ -31,6 +31,7 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('plan', [Controllers\PlanController::class, 'getAll']);
     Route::post('mail', [Controllers\MailController::class, 'postIndex']);
     Route::get('contact', [Controllers\ContactController::class, 'getAll']);
+    Route::get('question', [Controllers\QuestionController::class, 'getAll']);
     Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
     Route::middleware('auth')->group(function () {
         Route::post('blog/{blog}/add_text', [Controllers\BlogController::class, 'postBlogText']);
