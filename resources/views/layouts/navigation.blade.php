@@ -1,13 +1,31 @@
-<div class="navbar bg-base-100 sticky top-0">
-
-  <a class="logo" href="/">
+<nav class="bg-white py-4 px-2 flex justify-between">
+<a class="logo" href="/">
     <img src="images/XM.png" width="70" height="30" alt="Логотип">
   </a>
 
+  <h1 class="font-style: italic text-2xl font-medium">
+    Школа пластической гимнастики 
+    Венеры Невмержицкой
+  </h1>
+  <div class="ml-[18px]">
+            <a href="tel:+375296727338" class="font-Inter text-[16px] font-medium text-red-800">+375 296727338</a>
+            <p class="font-Inter text-[14px] font-medium text-red-800">Support Number</p>
+          </div>
+  <a href="/plan"
+    class="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-red-300 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        role="button">
+        Записаться сейчас
+</a>
+</nav>
+
+
+<div class="navbar bg-red-50">
+ 
+
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl"></a>
+    <a class="btn btn-ghost text-x3"></a>
   </div>
-  <div class="flex-none">
+  <div class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
     <ul class="menu menu-horizontal px-1">
     <li>
     @if($world == '/')
@@ -56,12 +74,7 @@
             </li>
                 </ul>
     <li>
-   
-    <a href="/plan"
-    class="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-red-300 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-        role="button">
-        Записаться сейчас
-</a>
+
     </li>
   </div>
 </div>
