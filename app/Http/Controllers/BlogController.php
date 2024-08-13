@@ -25,7 +25,7 @@ class BlogController extends Controller
         $view -> page = $_SERVER['REQUEST_URI'];
         $view -> ip = $_SERVER['REMOTE_ADDR'];
         $view -> save();
-        $viewpage = Views::where('page', $_SERVER['REQUEST_URI'])->count();
+        $viewpage = Views::where('page', $_SERVER['REQUEST_URI'])->count()-1;
         $comments = Comment::orderBy('id','DESC')->where('blog_id',$blog->id)->get();
         return view ('blog', compact('blog','comments', 'viewpage'));
     }

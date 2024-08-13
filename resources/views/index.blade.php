@@ -131,7 +131,7 @@
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800"></a>
+                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Статьи</a>
                 </div>
             </div>
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -142,7 +142,7 @@
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Галерея</a>
+                    <a href="/gallery" class="text-blue-600 font-medium hover:text-blue-800">Галерея</a>
                 </div>
             </div>
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -153,7 +153,7 @@
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800"></a>
+                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Статьи</a>
                 </div>
             </div>
         </div>

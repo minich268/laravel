@@ -8,8 +8,8 @@
     Венеры Невмержицкой
   </h1>
   <div class="ml-[18px]">
-            <a href="tel:+375296727338" class="font-Inter text-[16px] font-medium text-red-800">+375 296727338</a>
-            <p class="font-Inter text-[14px] font-medium text-red-800">Support Number</p>
+            <a href="tel:+375296727338" class="font-Inter text-[16px] font-medium text-red-800">+375 (29)672-73-38</a>
+            <p class="font-Inter text-[14px] font-medium text-red-800">Номер для связи</p>
           </div>
   <a href="/plan"
     class="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-red-300 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
