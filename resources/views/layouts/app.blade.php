@@ -52,13 +52,7 @@
        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
         <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
     </a>
-    <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-    </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
-    </a>
-</div>
+   </div>
 <p class="text-center text-gray-700 font-medium">&copy; 2024 Школа пластической гимнастики Венеры Невмержицкой.</p>
 </footer>
 @if(isset($_COOKIE['close']))

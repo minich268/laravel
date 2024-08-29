@@ -31,7 +31,7 @@
           
         </div>
 	
-		<div class="relative h-screen w-full">
+		<div class="relative h-screen w-full ">
     <img src="images/2.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-sm">
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="absolute inset-0 flex flex-col items-center justify-center">
@@ -40,41 +40,38 @@
     </div>
 </div>
 
-<div class="bg-gray-50 px-4 mt-16">
+<div class="bg-red-200 px-4 mt-16 ">
     <div class="container mx-auto py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform motion-safe:hover:scale-110">
+            <img class="" src="images/106.jpg">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold text-gray-800 mb-4">Забота</h2>
                     <p class="text-gray-600">Наша цель – это забота о здоровье детей.
 						Мы делаем все возможное, чтобы сделать их жизнь более гармоничной, здоровой и позитивной.
                         </p>
                 </div>
-                <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800"></a>
-                </div>
+                
             </div>
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform motion-safe:hover:scale-110">
+            <img class="" src="images/107.jpg">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold text-gray-800 mb-4">Дружба</h2>
                     <p class="text-gray-600">Наши маленькие воспитанники – наши друзья. Мы всегда рады помочь им, 
 						со всей теплотой подходя к каждому ребенку, и со всем вниманием – к каждому папе и маме.
                         </p>
                 </div>
-                <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Галерея</a>
-                </div>
+               
             </div>
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform motion-safe:hover:scale-110">
+            <img class="" src="images/104.jpg">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold text-gray-800 mb-4">Хорошее настроение</h2>
-                    <p class="text-gray-600">Лучший способ привить ребенку здоровый образ жизни и любовь к спорту  – превратить занятия в игру и праздник. Мы хотим, чтобы каждый, кто приходит и занимается в нашем Клубе,
+                    <p class="text-gray-600">Лучший способ привить ребенку здоровый образ жизни и любовь к спорту  – превратить занятия в игру и праздник. Мы хотим, чтобы каждый, кто приходит и занимается в нашей Школе,
 						 был не только здоров и физически развит, но весел и доволен.
                         </p>
                 </div>
-                <div class="bg-gray-100 px-6 py-4">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800"></a>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -120,40 +117,40 @@
 	</div>
 </section>
 </div>
-<div class="bg-gray-50 px-4 mt-16">
+<div class="bg-red-200 px-4 mt-16">
     <div class="container mx-auto py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div class="p-6">
-                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Забота</h2>
-                    <p class="text-gray-600">Наша цель – это забота о здоровье детей.
-						Мы делаем все возможное, чтобы сделать их жизнь более гармоничной, здоровой и позитивной.
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Индивидуальный подход</h2>
+                    <p class="text-gray-600">Каждый ребенок уникален! Мы стараемся учитывать индивидуальные 
+                        потребности и способности каждого участника, чтобы занятия приносили радость и удовольствие.
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Статьи</a>
+                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Советы для родителей</a>
                 </div>
             </div>
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div class="p-6">
-                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Дружба</h2>
-                    <p class="text-gray-600">Наши маленькие воспитанники – наши друзья. Мы всегда рады помочь им, 
-						со всей теплотой подходя к каждому ребенку, и со всем вниманием – к каждому папе и маме.
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Безопасность прежде всего</h2>
+                    <p class="text-gray-600">Мы уделяем большое внимание безопасности на занятиях. Все наши тренер квалифицированы и имеют опыт работы с детьми. 
+                        Каждое занятие проходит в безопасной и поддерживающей атмосфере.
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="/gallery" class="text-blue-600 font-medium hover:text-blue-800">Галерея</a>
+                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Безопастность на занятиях</a>
                 </div>
             </div>
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div class="p-6">
-                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Хорошее настроение</h2>
-                    <p class="text-gray-600">Лучший способ привить ребенку здоровый образ жизни и любовь к спорту  – превратить занятия в игру и праздник. Мы хотим, чтобы каждый, кто приходит и занимается в нашем Клубе,
-						 был не только здоров и физически развит, но весел и доволен.
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Присоединяйтесь к нам!</h2>
+                    <p class="text-gray-600">Приглашаем вас и ваших детей стать частью нашей дружной семьи гимнастов.
+                         Мы уверены, что вы проведете время с пользой и удовольствием!
                         </p>
                 </div>
                 <div class="bg-gray-100 px-6 py-4">
-                    <a href="/blogs" class="text-blue-600 font-medium hover:text-blue-800">Статьи</a>
+                    <a href="/contact" class="text-blue-600 font-medium hover:text-blue-800">Наши контакты</a>
                 </div>
             </div>
         </div>
@@ -219,6 +216,7 @@
 			  };
 			}
 </script>
+
 
 
    

@@ -1,11 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Форма обратной связи
+           
         </h2>
     </x-slot>
     <div class="pt-28">
-        <div class="text-4xl font-semibold pb-5 text-center">Reviews</div>
+        <div class="text-4xl font-semibold pb-5 text-center">Форма обратной связи</div>
     </div>
     @if (session('status'))
         <div class="toast toast-top toast-end" x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show">

@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\User;
-use App\Mail\MyEmail;
+use App\Mail\WelcomeMail;
 use Illuminate\Support\Facades\Mail;
+
 class MailController extends Controller
 {
-    public function postIndex(Request $request){
-        abort_if(!$request->message, '401', 'message is emptu');
-       //dd($request->all());
-       Mail::to('minich268@gmail.com')->send(new MyEmail($request->message));
-return redirect()->back();
+    public function sendWelcomeEmail()
+    {
+        $title = 'Welcome to the laracoding.com example email';
+        $body = 'Thank you for participating!';
+
+        Mail::to('minich268@gmail.com')->send(new WelcomeMail($title, $body));
+
+        return "Email sent successfully!";
     }
 }

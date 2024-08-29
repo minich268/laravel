@@ -4,62 +4,151 @@
        
         </h2>
     </x-slot>
-    <div class="bg-[#F2F4FF] h-screen">
-  <section class="max-w-5xl mx-auto py-10 sm:py-20">
-    <div class="flex items-center justify-center flex-col gap-y-2 py-5">
-      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold">Вопрос - ответ</h2>
-      <p class="text-lg font-medium text-slate-700/70">Мы внимательны относимся к вам</p>
-    </div>
-    <div class="w-full px-7 md:px-10 xl:px-2 py-4">
-      <div class="mx-auto w-full max-w-5xl border border-slate-400/20 rounded-lg bg-white">
-        <div class="border-b border-[#0A071B]/10">
-          <button class="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold text-slate-800 focus:outline-none p-5" data-toggle="answer-1"><span>Оптимальный возрас для занятия гимнастикой?</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class=" mt-1.5 md:mt-0 flex-shrink-0 rotate-180 transform h-5 w-5 text-[#5B5675]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></button>
-          <div class="answer pt-2 pb-5 px-5 text-sm lg:text-base text-[#343E3A] font-medium" id="answer-1"
-            style="display: none;">Самый оптимальный возрас для занятие гимнатикой 3-4 года.
-            plans.</div>
-        </div>
-        <div class="border-b border-[#0A071B]/10">
-          <button class="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold text-slate-800 focus:outline-none p-5" data-toggle="answer-2"><span>What is the uptime guarantee for your hosting services?</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class=" mt-1.5 md:mt-0 flex-shrink-0  h-5 w-5 text-[#5B5675]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></button>
-          <div class="answer pt-2 pb-5 px-5 text-sm lg:text-base text-[#343E3A] font-medium" id="answer-2"
-            style="display: none;">We guarantee an uptime of 99.9% for all our hosting services.</div>
-        </div>
-        <div class="border-b border-[#0A071B]/10">
-          <button class="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold text-slate-800 focus:outline-none p-5" data-toggle="answer-3"><span>Do you provide website migration assistance?</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class=" mt-1.5 md:mt-0 flex-shrink-0  h-5 w-5 text-[#5B5675]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></button>
-          <div class="answer pt-2 pb-5 px-5 text-sm lg:text-base text-[#343E3A] font-medium" id="answer-3"
-            style="display: none;">Yes, we offer free website migration assistance for new customers.</div>
-        </div>
-        <div class="">
-          <button class="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold text-slate-800 focus:outline-none p-5" data-toggle="answer-4"><span>What security measures do you have in place?</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class=" mt-1.5 md:mt-0 flex-shrink-0  h-5 w-5 text-[#5B5675]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></button>
-          <div class="answer pt-2 pb-5 px-5 text-sm lg:text-base text-[#343E3A] font-medium" id="answer-4"
-            style="display: none;">We employ advanced security measures including firewalls, DDoS protection, and
-            regular security audits.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
+    <section class="sm:py-10 bg-red-100 overflow-hidden" id="faq">
+        <div class="container mx-auto px-4">
+            <div class="relative py-16 px-8 bg-yelloww overflow-hidden rounded-3xl">
+                <div class="relative z-10 md:max-w-7xl mx-auto">
+                    <div class="md:max-w-xl mb-10"><span class="inline-block mb-5 text-md text-mygray font-bold uppercase tracking-widest">Frequently
+                            asked questions</span>
+                        <h2 class="font-heading text-4xl    text-mygray text-4xl lg:text-5xl font-bold font-heading">
+                            Got questions? We’re here to help!</h2>
+                    </div>
+                    <div class="flex flex-wrap -m-3">
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-200 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">How soon will I
+                                            receive the voucher code once I make the payment?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">You will receive the voucher code
+                                            immediately via email and SMS once you make the payment. The process is
+                                            completely automated and takes only 30 seconds.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-300 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Within what timeframe
+                                            do I need to book the slot after purchasing the voucher?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">This voucher is valid for 11 months. It is
+                                            important to complete your exam within this 11-month period starting from
+                                            the date of purchase.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-400 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Is this refundable?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Sure, if you change your mind and plan not
+                                            to appear for Toefl Academic and return the unused voucher code to us, we
+                                            will
+                                            happily refund 70% of the amount within 6 months of purchase.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('.question-btn');
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Can I book any
+                                            available slot?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Yes, you can book any available slot across
+                                            India. You just need to book your slot 48 hours in advance.
+                                        </p>
+                                    </div>
+                                </div>
 
-    buttons.forEach(button => {
-      button.addEventListener('click', function() {
-        const targetId = this.getAttribute('data-toggle');
-        const target = document.getElementById(targetId);
-        const isExpanded = target.style.display === 'block';
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-600 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black lg:pr-10">Do I have to
+                                            pay anything extra at PearsonToefl.com website at the time of slot booking?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">No, you don't have to pay anything extra on
+                                            PearsonToefl.com website to book your slot. This prepaid Toefl voucher is
+                                            inclusive of GST and covers the full cost of Toefl Academic.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">
+                                            Can you book my slot for me?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Sure, if you're new to TOEFL and GRE and
+                                            don't know
+                                            how to book your slot, our team will happily help you to book your slot or
+                                            we will book it for you.
 
-        if (isExpanded) {
-          target.style.display = 'none';
-          this.querySelector('svg').classList.remove('rotate-180');
-        } else {
-          target.style.display = 'block';
-          this.querySelector('svg').classList.add('rotate-180');
-        }
-      });
-    });
-  });
-</script>   
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-fuchsia-800 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Can you give me some
+                                            more discount?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Unfortunately, we cannot provide any
+                                            further discount. There is no room for any additional discount since these
+                                            are genuine vouchers and they include 18% GST, unlike others.
+
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
 
    
 

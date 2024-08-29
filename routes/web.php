@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +30,9 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);
     Route::get('star/add', [Controllers\StarController::class, 'getAll']);
     Route::get('plan', [Controllers\PlanController::class, 'getAll']);
-    Route::post('mail', [Controllers\MailController::class, 'postIndex']);
+   // Route::post('mail', [Controllers\MailController::class, 'postIndex']);
+    //Route::get('mail', [Controllers\MailController::class, 'postIndex']);
+    Route::get('/send-welcome-email', [MailController::class, 'sendWelcomeEmail']);
     Route::get('contact', [Controllers\ContactController::class, 'getAll']);
     Route::get('question', [Controllers\QuestionController::class, 'getAll']);
     Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
