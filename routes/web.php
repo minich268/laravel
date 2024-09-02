@@ -24,6 +24,11 @@ Route::middleware('lang')->group(function () {
 );
 Route::post('review', [Controllers\ReviewController::class,'postIndex']
 );
+Route::get('register', [Controllers\RegisterController::class,'getIndex']
+);
+Route::post('register', [Controllers\RegisterController::class,'postIndex']
+);
+
 Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
@@ -34,6 +39,7 @@ Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
     //Route::get('mail', [Controllers\MailController::class, 'postIndex']);
     Route::get('/send-welcome-email', [MailController::class, 'sendWelcomeEmail']);
     Route::get('contact', [Controllers\ContactController::class, 'getAll']);
+    Route::get('programm', [Controllers\ProgrammController::class, 'getAll']);
     Route::get('question', [Controllers\QuestionController::class, 'getAll']);
     Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
     Route::middleware('auth')->group(function () {

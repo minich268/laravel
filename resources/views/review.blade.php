@@ -4,8 +4,8 @@
            
         </h2>
     </x-slot>
-    <div class="pt-28">
-        <div class="text-4xl font-semibold pb-5 text-center">Форма обратной связи</div>
+    <div class="pt-28 bg-red-200 ">
+        <div class="text-4xl font-semibold pb-5 text-center">Вы можете записать Вашего ребенка на занятия или оставить отзыв</div>
     </div>
     @if (session('status'))
         <div class="toast toast-top toast-end" x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show">
@@ -17,7 +17,7 @@
     @endif
 <div class="grid grid-cols-4 m-2 bg-base">
     <div class="col-span-4 md:col-span-3 order-2 md:order-1 bg-white rounded-lg border shadow p-6">
-        <div class="text-3xl text-center">Отзывы с сайта</div>
+        <div class="text-3xl text-center">Мы рады видеть Вас на нашем сайте</div>
         <div>
             @foreach($reviews as $lead)
                 <div class="border-b border-gray-300 p-3">
@@ -59,7 +59,7 @@
                         <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
                         <input type="hidden" name="preferred" value="отзыв">
                         <button type="submit" class="px-4 py-2 mt-8 font-semibold text-gray-800 bg-white border border-gray-300 rounded shadow hover:bg-gray-100">
-                            Оставить отзыв
+                            Отправить заявку
                         </button>
                     </form>
                 </div>

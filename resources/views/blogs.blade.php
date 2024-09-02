@@ -1,13 +1,14 @@
 @extends('layouts.base')
 
 @section('content')
-<section class="text-gray-600 body-font">
+<section class="text-red-800 body-font">
             <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 bg-fuchsia-200">
            @foreach ($blogs as $blog)
                     <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
                         <div class="rounded-lg h-64 overflow-hidden">
-                            <img alt="содержание" class="object-cover object-center h-full w-full rounded-tl-4xl и rounded-tr-4xl" src="{{asset('storage/' .$blog->picture)}}">
+                            <img alt="содержание" class="object-cover object-center h-full w-full rounded-tl-4xl и rounded-tr-4xl"
+                             src="{{asset('storage/' .$blog->picture)}}">
                         </div>
                         <h3 class="text-xl font-medium title-font text-gray-900 mt-5">
                             <div style="vertical-align: inherit;">
