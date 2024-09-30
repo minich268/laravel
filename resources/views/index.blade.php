@@ -2,8 +2,8 @@
 
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-       
-        </h2>
+               </h2>
+
 
     </x-slot>
 
@@ -32,11 +32,11 @@
         </div>*/ -->
 	
 		<div class="relative h-screen w-full ">
-    <img src="images/2.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-sm">
+    <img src="images/5.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-sm">
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="absolute inset-0 flex flex-col items-center justify-center">
         <h1 class="text-4xl text-white font-bold">Школа пластической гимнастики</h1>
-        <p class="text-xl text-white mt-4">г.Минск, ул.Проспект Независимости,168</p>
+        <p class="text-xl text-white mt-4">г.Минск, ул.Руссиянова,7</p>
     </div>
 </div>
 
@@ -44,7 +44,7 @@
     <div class="container mx-auto py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transform motion-safe:hover:scale-110">
-            <img class="" src="images/106.jpg">
+            <img class="" src="images/105.jpg">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold text-gray-800 mb-4">Забота</h2>
                     <p class="text-gray-600">Наша цель – это забота о здоровье детей.

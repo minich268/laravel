@@ -51,4 +51,25 @@
                 </div>
             </div>
         </section>
+        <footer class="flex flex-col space-y-10 justify-center m-10">
+
+<nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+    <a class="hover:text-gray-900" href="#">Главная</a>
+    <a class="hover:text-gray-900" href="/gallery">Галерея</a>
+    <a class="hover:text-gray-900" href="/blogs">Новости</a>
+    <a class="hover:text-gray-900" href="/contact">Контакты</a>
+    <a class="hover:text-gray-900" href="/question">Вопрос-ответ</a>
+    <a class="hover:text-gray-900" href="/review">Форма обратной связи</a>
+</nav>
+
+<div class="flex justify-center space-x-5">
+    <a href="https://facebook.com/Елена Минич" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+    </a>
+       <a href="https://instagram.com/helenhelen2009" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+    </a>
+   </div>
+<p class="text-center text-gray-700 font-medium">&copy; 2024 Школа пластической гимнастики Венеры Невмержицкой.</p>
+</footer>
 @endsection

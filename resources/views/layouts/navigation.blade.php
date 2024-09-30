@@ -11,10 +11,10 @@
             <a href="tel:+375296727338" class="font-Inter text-[16px] font-medium text-red-800">+375 (29)672-73-38</a>
             <p class="font-Inter text-[14px] font-medium text-red-800"></p>
           </div>
-          <a href="/plan"
+          <a href="/format"
     class="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg 
-    font-bold text-white transition-all duration-200 bg-red-300 border-2 border-transparent 
-    sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+    font-bold text-white transition-all duration-200 bg-rose-200 border-2 border-transparent 
+    sm:w-auto rounded-xl font-pj hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-100"
         role="button">
         Записаться сейчас
 </a> 
@@ -100,7 +100,7 @@
   </div>
   </div>-->
   
-   <header class="bg-red-300 sticky top-0 z-50 px-4">
+  <header class="bg-rose-200 sticky top-0 z-50 px-4">
     <div class="container mx-auto flex justify-between items-center py-4">
    
            <div class="flex md:hidden">
@@ -137,3 +137,5 @@
     <li class="pb-4 pt-4"><a href="#contact" class="hover:text-secondary font-bold">Contact</a></li>
   </ul>
   </nav>
+
+  

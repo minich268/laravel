@@ -28,7 +28,7 @@
                   </path>
                 </svg>АДРЕС
               </dt>
-              <dd class="inline">г.Минск, ул.Проспект Независимости,168
+              <dd class="inline">г.Минск, ул.Руссиянова,7
                 
               </dd>
             </div>
@@ -54,6 +54,7 @@
                     d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 01-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012zM6 4.586l2.33 2.33a.452.452 0 01-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 01-.447-.276l-1.7-3.402a.5.5 0 01.093-.577l.49-.49a.5.5 0 01.577-.094l3.402 1.7A.5.5 0 016 3.31v1.277z">
                   </path>
                 </svg>КАК НАЙТИ НАС ПО КАРТЕ</dt>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.6177214747177!2d27.686056399999995!3d53.938535099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbceb683733c1b%3A0x1348e21fb88e59dc!2z0YPQu9C40YbQsCDQoNGD0YHRgdC40Y_QvdC-0LLQsCA3LCDQnNC40L3RgdC6IDIyMDE0MQ!5e0!3m2!1sru!2sby!4v1682532912259!5m2!1sru!2sby" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               <dd class="inline">
               </dd>
             </div>

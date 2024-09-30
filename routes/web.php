@@ -24,12 +24,13 @@ Route::middleware('lang')->group(function () {
 );
 Route::post('review', [Controllers\ReviewController::class,'postIndex']
 );
-Route::get('register', [Controllers\RegisterController::class,'getIndex']
+Route::get('format', [Controllers\FormatController::class,'getIndex']
 );
-Route::post('register', [Controllers\RegisterController::class,'postIndex']
+Route::post('format', [Controllers\FormatController::class,'postIndex']
 );
 
 Route::get('feed', [Controllers\FeedController::class, 'getIndex']);
+
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
     Route::get('gallery', [Controllers\GalleryController::class, 'getAll']);

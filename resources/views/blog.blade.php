@@ -68,7 +68,7 @@
             </div>
             <div class="w-full bg-white rounded-lg border p-2 my-4 mx-6">
 
-<h3 class="font-bold">Discussion</h3>
+<h3 class="font-bold">Оставляйте ваши комментарии</h3>
 
     <div class="flex flex-col">
     @foreach($comments as $comment)
@@ -91,12 +91,12 @@
                                 <div class="w-full px-3 my-2">
                 <textarea
                     class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white"
-                    name="body" placeholder='Type Your Comment' required></textarea>
+                    name="body" placeholder='Напишите Ваш комментарий' required></textarea>
                                 </div>
                                 <div class="w-full flex justify-end px-3">
                                     <input type='submit'
                                            class="px-2.5 py-1.5 rounded-md text-white text-sm bg-indigo-500"
-                                           value='Post Comment'>
+                                           value='Ваши комментарии'>
                                 </div>
                             </form>
 
@@ -104,4 +104,25 @@
     </div>
         </div>
     </section>
+    <footer class="flex flex-col space-y-10 justify-center m-10">
+
+<nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+    <a class="hover:text-gray-900" href="#">Главная</a>
+    <a class="hover:text-gray-900" href="/gallery">Галерея</a>
+    <a class="hover:text-gray-900" href="/blogs">Новости</a>
+    <a class="hover:text-gray-900" href="/contact">Контакты</a>
+    <a class="hover:text-gray-900" href="/question">Вопрос-ответ</a>
+    <a class="hover:text-gray-900" href="/review">Форма обратной связи</a>
+</nav>
+
+<div class="flex justify-center space-x-5">
+    <a href="https://facebook.com/Елена Минич" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+    </a>
+       <a href="https://instagram.com/helenhelen2009" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+    </a>
+   </div>
+<p class="text-center text-gray-700 font-medium">&copy; 2024 Школа пластической гимнастики Венеры Невмержицкой.</p>
+</footer>
 @endsection

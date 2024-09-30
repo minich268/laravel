@@ -14,25 +14,26 @@
                         <h2 class="font-heading text-4xl    text-mygray text-4xl lg:text-5xl font-bold font-heading">
                             У Вас есть вопросы? Мы рады ответить на них!</h2>
                     </div>
+                    
                     <div class="flex flex-wrap -m-3">
+                        @foreach($questions as $question)
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
-                                        <h3 class="font-heading text-xl text-white font-black">В каком возрасте 
-                                          лучше отдать ребенка на пластическую гимнастику?
+                                        <h3 class="font-heading text-xl text-white font-black">{!!$question->question!!}
                                         </h3>
                                     </div>
                                     <div class="w-full md:w-1/2 p-2">
-                                        <p class="text-white font-medium">Оптимальный возраст для начало занятий гимнастикой от 2 до
-                                          3 лет.
+                                        <p class="text-white font-medium">{!!$question->ansver!!}
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+@endforeach
+                        <!--<div class="w-full p-3">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Как одеть ребёнка на занятия?
@@ -49,7 +50,7 @@
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Сколько раз в неделю проводятся занятия?
@@ -65,7 +66,7 @@
                         </div>
 
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Нужно ли записываться на ознакомительное 
@@ -83,7 +84,7 @@
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black lg:pr-10">Нужна ли медицинская справка 
@@ -102,7 +103,7 @@
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">
@@ -119,7 +120,7 @@
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-fuchsia-500 rounded-3xl">
+                            <div class="p-10 bg-rose-300 rounded-3xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Какой режим питания соблюдать до и после занятий?
@@ -136,7 +137,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>

@@ -5,13 +5,13 @@
         </h2>
     </x-slot>
     <div class="pt-28 bg-red-200 ">
-        <div class="text-4xl font-semibold pb-5 text-center">Вы можете записать Вашего ребенка на занятия или оставить отзыв</div>
+        <div class="text-4xl font-semibold pb-5 text-center">Вы можете записать интересующий Вас вопрос или оставить отзыв</div>
     </div>
     @if (session('status'))
-        <div class="toast toast-top toast-end" x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show">
-            <div class="alert alert-success">
-                Thank you! <br />
-                {{ session('status') }}
+        <div class="toast-container position-fixed bottom-0 end-0 p-3" x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show">
+            <div class="alert alert-success btn-close btn-close-white bg-rose-200">
+                Спасибо большое за Ваши отзыв <br />
+               
             </div>
         </div>
     @endif
@@ -59,7 +59,7 @@
                         <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
                         <input type="hidden" name="preferred" value="отзыв">
                         <button type="submit" class="px-4 py-2 mt-8 font-semibold text-gray-800 bg-white border border-gray-300 rounded shadow hover:bg-gray-100">
-                            Отправить заявку
+                            Отправить отзыв
                         </button>
                     </form>
                 </div>

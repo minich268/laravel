@@ -8,6 +8,7 @@ use App\Models\Question;
 class QuestionController extends Controller
 {
     public function getAll ($url = null){
-        return view ('question');
+        $questions = Question::all();
+        return view ('question', compact('questions'));
     }
 }

@@ -4,10 +4,10 @@
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
        
         </h2>
-
+  
     </x-slot>
 
-    <div class="bg-red-100 dark:bg-gray-800 py-8">
+    <div class="bg-red-200 dark:bg-gray-800 py-8">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row -mx-4">
             <div class="md:flex-1 px-4">
@@ -16,8 +16,8 @@
                 </div>
                 <div class="flex -mx-2 mb-4">
                     <div class="w-1/2 px-2">
-                    <form action="/review">
-                        <button class="w-full bg-red-500 dark:bg-gray-600 text-white py-2 px-4 
+                    <form action="/format">
+                        <button class="w-full bg-rose-300 dark:bg-gray-600 text-white py-2 px-4 
                         rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Записаться сейчас</button>
                     </form>
                     </div>
@@ -28,13 +28,14 @@
                 <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Занятия для детей от 3 до 5</h2>
                 <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
                    Вы можете выбрать время и дни для занятие гимнастикой
-                   Длительность занятий 1 час.
+                   Для детей от 3 до 5 лет длительность занятий 1 час. Расписание занятий Понедельник, Среда.
+                   Время выделенно в розовом квадрате
                 </p>
                 <div class="flex space-x-2">
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300"
     name="size" value="xs">Пн
 </label>
 <label class="text-center">
@@ -42,7 +43,7 @@
     value="s">Вт
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="m">Ср
 </label>
 <label class="text-center">
@@ -58,11 +59,11 @@
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300"
     name="size" value="xs">12.00
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="s">13.30
 </label>
 <label class="text-center">
@@ -77,7 +78,7 @@
 <input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
     value="xl">18.00
 </label>
-</div>               
+</div>              
                 <div>
                     <span class="font-bold text-gray-700 dark:text-gray-300">Что необходимо иметь с собой</span>
                     <p class="selection:bg-fuchsia-300 selection:text-fuchsia-900">
@@ -110,7 +111,7 @@
                 <div class="flex -mx-2 mb-4">
                     <div class="w-1/2 px-2">
                     <form action="/review">
-                        <button class="w-full bg-red-500 dark:bg-gray-600 text-white py-2 px-4 
+                        <button class="w-full bg-rose-300 dark:bg-gray-600 text-white py-2 px-4 
                         rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Записаться сейчас</button>
                     </form>
                     </div>
@@ -121,17 +122,17 @@
                 <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Занятия для детей от 6 до 8</h2>
                 <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
                    Вы можете выбрать время и дни для занятие гимнастикой
-                   Длительность занятий 1 час.
+                   Длительность занятий для детей в возрасте от 6 до 8 лет 1,5 час. Расписание занятий Понедельник, Вторник и Пятница. Время занятий выделенно в розовом квадрате.
                 </p>
                 <div class="flex space-x-2">
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300"
     name="size" value="xs">Пн
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="s">Вт
 </label>
 <label class="text-center">
@@ -143,7 +144,7 @@
     value="l">Чт
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="xl">Пят
 </label>
 </div>  
@@ -151,7 +152,7 @@
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600"
     name="size" value="xs">12.00
 </label>
 <label class="text-center">
@@ -159,15 +160,15 @@
     value="s">13.30
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="m">15.00
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="l">16.30
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="xl">18.00
 </label>
 </div>               
@@ -193,7 +194,7 @@
 </div>
 
 
-<div class="bg-red-300 dark:bg-gray-800 py-8">
+<div class="bg-red-200 dark:bg-gray-800 py-8">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row -mx-4">
             <div class="md:flex-1 px-4">
@@ -203,7 +204,7 @@
                 <div class="flex -mx-2 mb-4">
                     <div class="w-1/2 px-2">
                     <form action="/review">
-                        <button class="w-full bg-red-500 dark:bg-gray-600 text-white py-2 px-4 
+                        <button class="w-full bg-rose-300 dark:bg-gray-600 text-white py-2 px-4 
                         rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Записаться сейчас</button>
                     </form>
                     </div>
@@ -214,17 +215,17 @@
                 <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Занятия для детей от 9 до 15</h2>
                 <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
                    Вы можете выбрать время и дни для занятие гимнастикой
-                   Длительность занятий 1 час.
+                   Для детей от 9 до 15 лет длительность занятий 1,5 час. Расписание занятий Понедельник, Вторник и Четверг. Время занятий выделенно в розовом квадрате.
                 </p>
                 <div class="flex space-x-2">
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300"
     name="size" value="xs">Пн
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="s">Вт
 </label>
 <label class="text-center">
@@ -232,7 +233,7 @@
     value="m">Ср
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="l">Чт
 </label>
 <label class="text-center">
@@ -244,7 +245,7 @@
                 <label class="text-center">
 
 <input type="checkbox"
-    class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-gray-100 rounded-lg dark:bg-gray-600"
+    class="flex items-center justify-center w-6 h-6 accent-violet-600"
     name="size" value="xs">12.00
 </label>
 <label class="text-center">
@@ -256,11 +257,11 @@
     value="m">15.00
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="l">16.30
 </label>
 <label class="text-center">
-<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600" name="size"
+<input type="checkbox" class="flex items-center justify-center w-6 h-6 accent-violet-600 bg-rose-300" name="size"
     value="xl">18.00
 </label>
 </div>               
